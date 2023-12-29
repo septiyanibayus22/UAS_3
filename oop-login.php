@@ -33,7 +33,10 @@ class UserManager extends User
 }
 
 // extends itu inhweitance
-class Login extends User
+interface Oop_login{
+    public function loginUser();
+}
+class Login extends User implements Oop_login
 {
     protected $conn;
     public function __construct($conn, $username, $password)
@@ -53,9 +56,10 @@ class Login extends User
                 header("location:tiket/index.php");
             } else {
                 header("location:login.php?pesan=password salah");
-            }
+            } 
         } else {
             header("location:login.php?pesan=username salah");
         }
     }
 }
+

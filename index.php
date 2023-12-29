@@ -31,13 +31,13 @@ include("koneksi.php");
         <img src="images/Modern Initial MB Logo.png" alt="logo Aplikasi" class="img-responsive" style="width: 200px;" />
       </h1>
       <h1>
-        Selamat Datang di
+        SELAMAT DATANG DI
         <b style="font-family: Futura Md BT">ONAV</b>
       </h1>
       <p style="font-family: Brush Script Std; font-size: 21px">
         Pesan tiket hanya dengan 1 klik
       </p>
-      <a href="tiket/index.php"><button type="button" class="btn btn-primary">Cari Tiket</button></a>
+      <a href="tiket/index.php"><button type="button" class="btn btn-primary">selamat ujian</button></a>
     </div>
 
   </section>
@@ -142,7 +142,7 @@ include("koneksi.php");
         <div class="col-lg-5 col-md-6 col-sm-6">
           <div class="footer-widget">
             <h1>
-              <b style="font-family: Futura Md BT">ONAV</b><img src="images/ONAV log putih.png" alt="logo"
+              
                 width="100px">
             </h1>
             <p>Kampus Bumi Tridharma Anduonohu, Jalan H.E.A. Mokodompit, Kodya Kendari, Sulawesi Tenggara</p>
